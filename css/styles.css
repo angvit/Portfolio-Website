@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  font-family: monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:hover,
+a:visited {
+  color: lightskyblue;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#page-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#content-wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+  padding-top: 25px;
+}
+
+#headshot {
+  border: 2px solid lightskyblue;
+  border-radius: 50%;
+}
+
+#footer {
+  width: 100%;
+  margin: auto 0;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+}
