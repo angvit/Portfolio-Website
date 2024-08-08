@@ -78,3 +78,28 @@ main {
   text-align: center;
   bottom: 0;
 }
+
+.category {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.employer {
+  margin-bottom: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.role {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.period {
+  font-size: 16px;
+}
+
+.job-descrip {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
